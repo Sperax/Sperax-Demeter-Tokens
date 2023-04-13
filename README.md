@@ -2,10 +2,11 @@
 Token list for Demeter
 
 ## Guide for launch new token
-1. Create token folder in "/tokens". The folder name is token address. And it should be lowercase.
-2. Upload the token logo in the token folder.
-3. Create token.json in the token folder.
-4. Set the git commit msg to "XXX token" when commit the changes.
+1. Create token folder in "/tokens". The folder name should be token address in lowercase.
+2. To create the folder go inside "/tokens" folder. Click on 'Create new file' and name the file as '<token_address>/' and a new folder will be created with the token address as the name. Eg - For adding SPA token, create a new file with the name '0x5575552988A3A80504bBaeB1311674fCFd40aD4B/'.
+3. Upload the token logo in the token folder in .svg or .png format.
+4. Create token.json in the token folder.
+5. Set the git commit msg to "XXX token" when commit the changes.
 
 ## Guide for "token.json"
 1. The template like this
